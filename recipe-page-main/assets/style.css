@@ -1,0 +1,59 @@
+body{
+    background-color: pink;
+  
+}
+.caja{
+   border-radius: 5px;
+  background-color: white;
+  width: 80%;
+  font-size: 15px;
+  font-family: 'Lucida Sans';
+  margin: auto;
+  padding: 20px;
+ 
+}
+.imagen{
+    display: block;
+    margin: auto;
+    max-width:  100%;
+    height: 30%;
+    border-radius: 5px;
+   
+}
+h3 , h2{
+    text-align: justify;
+    color:	#DC143C;
+    text-shadow: 2px 2px 2px rgb(167, 159, 159);
+    text-transform: uppercase;
+}
+.caja-2{
+    background-color: #E6E6FA
+}
+h5{
+    color:	#DC143C ;
+    text-transform: uppercase;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin: auto;
+  }
+
+  th, td {
+    border: 1px solid #E6E6FA;
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+  @media only screen and (max-width: 600px) {
+    .caja {
+      width: 100%; }
+
+    .imagen {
+      width: 100%; 
+}
+  }
